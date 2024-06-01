@@ -1,0 +1,39 @@
+.sidebar {
+  border: 1px solid #5661f6;
+  background-color: #000439;
+  width: 90px;
+  height: 910px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 40px 20px;
+}
+
+.icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
+}
+
+.image-icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 45px;
+}
+
+.image-icons img {
+  width: 20px;
+}
+
+.colored-circle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  /* Space between the circles */
+}
